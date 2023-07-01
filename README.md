@@ -1,2 +1,2 @@
 # pyscripts
-Useful python scripts to process the outputs by WannierTools, SKEAF etc.
+Useful python scripts to process the outputs of WannierTools, SKEAF etc.
