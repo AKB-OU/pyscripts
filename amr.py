@@ -46,8 +46,8 @@ for theta in range(theta_init, theta_max, theta_del):
     sigmaseg=[0]*sigmasum.shape[1]
     sigmaseg_zero=[0]*sigmasum.shape[1]
     
-    #sigmaseg=sigmasum[sigmasum.shape[0]-1]
-    sigmaseg=sigmasum[50]#!!!manual point set!!!
+    sigmaseg=sigmasum[sigmasum.shape[0]-1]
+    #sigmaseg=sigmasum[50]#!!!manual point set!!!
     sigmaseg_zero=sigmasum[0]
     
     sigma_3_3=sigmaseg.reshape(3,3)
